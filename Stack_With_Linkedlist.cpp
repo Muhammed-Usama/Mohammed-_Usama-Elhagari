@@ -38,11 +38,13 @@ public:
   void Display()
   {
     node *current_node = Top;
+    cout << "The Stack is : ";
     while (current_node != NULL)
     {
-      cout << current_node->data << "\n";
+      cout << current_node->data << "\t";
       current_node = current_node->next;
     }
+    cout << endl;
   }
   void search(int key)
   {
