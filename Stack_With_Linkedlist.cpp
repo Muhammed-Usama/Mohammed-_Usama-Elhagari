@@ -84,8 +84,6 @@ public:
 };
 int main()
 {
-  cout << " ____________ Mohammed Usama Elhagari __________ " << endl;
-  cout << " ________ Assignment 1 ______ CE _____CSE111________ " << endl;
   Stack S1;
   int item;
   S1.Push(10);
